@@ -1,0 +1,191 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  
+  a {
+    color: #0077cc;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+  }
+  
+  .border-top {
+    border-top: 1px solid #e5e5e5;
+  }
+  .border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  
+  button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+  }
+  
+  .modal-content {
+      border: none;
+      border-radius: 15px;
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-outline-success:hover,
+  .btn-outline-warning:hover {
+      transform: translateY(-3px);
+      transition: transform 0.3s ease;
+  }
+  
+  .badge {
+      font-size: 0.7em;
+  }
+  
+  .highlight {
+      animation: highlight 2s;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  @keyframes highlight {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+  }
+  
+  .footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      white-space: nowrap;
+      line-height: 60px;
+  }
+  
+  .highlight-card {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      z-index: 1;
+  }
+  
+  .card {
+      transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Paketler modalındaki kartlar için yeni stiller */
+  .modal#paketlerModal .card {
+      border: 2px solid #e9ecef;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+  }
+  
+  .modal#paketlerModal .card[data-paket="ekonomik"] {
+      border-color: #0d6efd;
+  }
+  
+  .modal#paketlerModal .card[data-paket="konfor"] {
+      border-color: #198754;
+  }
+  
+  .modal#paketlerModal .card[data-paket="premium"] {
+      border-color: #ffc107;
+  }
+  
+  .modal#paketlerModal .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  /* Hızlı rezervasyon butonları için ek stiller */
+  .btn-lg.btn-outline-primary,
+  .btn-lg.btn-outline-success,
+  .btn-lg.btn-outline-warning {
+      min-width: 200px;
+      margin: 10px;
+      font-weight: 400;
+  }
+  
+  /* Navbar hover efekti */
+  .hover-effect {
+      position: relative;
+      transition: color 0.3s ease;
+  }
+  
+  .hover-effect:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #fff;
+      transition: width 0.3s ease;
+  }
+  
+  .hover-effect:hover:after {
+      width: 100%;
+  }
+  
+  /* Buton hover efektleri */
+  .btn {
+      transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Navbar marka stili */
+  .navbar-brand span {
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+  }
+  
+  /* Navbar buton stili */
+  .navbar .btn {
+      padding: 0.5rem 1.5rem;
+      font-weight: 500;
+      min-width: 140px;
+  }
+  
+  .navbar .btn-outline-light:hover {
+      background-color: rgba(255,255,255,0.1);
+      color: white;
+  }
+  
+  .navbar .btn-light {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #212529;
+  }
+  
+  .navbar .btn-light:hover {
+      background-color: #f8f9fa;
+      border-color: #f8f9fa;
+      color: #212529;
+  }

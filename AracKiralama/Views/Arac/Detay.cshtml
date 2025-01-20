@@ -1,0 +1,225 @@
+@model AracKiralama.Models.Kiralama
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-gradient text-white">
+            <h4 class="mb-0">@(Model.Arac?.Marka ?? "") @(Model.Arac?.Model ?? "")</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="@(Model.Arac?.ResimUrl ?? "")" class="img-fluid rounded shadow" 
+                         style="max-height: 300px; width: 100%; object-fit: cover;" 
+                         alt="@(Model.Arac?.Marka ?? "") @(Model.Arac?.Model ?? "")">
+                </div>
+                <div class="col-md-7">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Kiralama Detayları</h5>
+                            
+                            <form id="kiralamaForm" method="post" action="/Sepet/SepeteEkle">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="aracId" value="@Model.AracId" />
+                                
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Başlangıç Tarihi</label>
+                                        <input type="date" id="baslangicTarihi" name="baslangic" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Bitiş Tarihi</label>
+                                        <input type="date" id="bitisTarihi" name="bitis" class="form-control" required>
+                                    </div>
+                                </div>
+                                 <div class="card bg-light mb-3">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <h6 class="mb-2">Günlük Ücret</h6>
+                                            <span class="h3 text-primary">@(Model.Arac?.GunlukUcret.ToString("C0"))</span>
+                                            <div class="text-muted small mt-1">
+                                                <i class="fas fa-info-circle me-1"></i>
+                                                +3.000 ₺ depozito bedeli
+                                            </div>
+                                        </div>
+                                    </div>
+                      </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" id="kosullarKabul" required>
+                                    <label class="form-check-label" for="kosullarKabul">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#kiralamaKosullariModal">
+                                            Kiralama koşullarını
+                                        </a> 
+                                        kabul ediyorum
+                                    </label>
+                                </div>
+
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-primary" onclick="return sepeteEkle()">
+                                        <i class="fas fa-cart-plus me-2"></i>Sepete Ekle
+                                    </button>
+                                    <a href="javascript:history.back()" class="btn btn-outline-secondary">
+                                        <i class="fas fa-arrow-left me-2"></i>Geri Dön
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kiralama Koşulları Modal -->
+<div class="modal fade" id="kiralamaKosullariModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-gradient text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-file-contract me-2"></i>
+                    Kiralama Koşulları
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="accordion" id="kiralamaKosullariAccordion">
+                    <!-- Depozito -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#depozito">
+                                <i class="fas fa-money-bill-wave me-2"></i>Depozito Şartları
+                            </button>
+                        </h2>
+                        <div id="depozito" class="accordion-collapse collapse show" data-bs-parent="#kiralamaKosullariAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>3.000 TL depozito bedeli alınmaktadır.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Depozito, araç tesliminde hasar kontrolü yapıldıktan sonra iade edilir.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Herhangi bir hasar durumunda, hasar bedeli depozitodan düşülür.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kiralama Şartları -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#kiralamaGenel">
+                                <i class="fas fa-clipboard-list me-2"></i>Genel Kiralama Şartları
+                            </button>
+                        </h2>
+                        <div id="kiralamaGenel" class="accordion-collapse collapse" data-bs-parent="#kiralamaKosullariAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>Kiracı en az 21 yaşında olmalıdır.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>En az 2 yıllık ehliyet şartı aranmaktadır.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Kimlik ve ehliyet fotokopisi alınacaktır.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Günlük kilometre sınırı 300 km'dir.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ödeme Koşulları -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#odemeKosullari">
+                                <i class="fas fa-credit-card me-2"></i>Ödeme Koşulları
+                            </button>
+                        </h2>
+                        <div id="odemeKosullari" class="accordion-collapse collapse" data-bs-parent="#kiralamaKosullariAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>Kiralama bedeli peşin ödenir.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Kredi kartı, banka kartı veya nakit ödeme kabul edilir.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Depozito bedeli ayrıca alınır.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sigorta ve Hasar -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sigortaHasar">
+                                <i class="fas fa-shield-alt me-2"></i>Sigorta ve Hasar Politikası
+                            </button>
+                        </h2>
+                        <div id="sigortaHasar" class="accordion-collapse collapse" data-bs-parent="#kiralamaKosullariAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>Tüm araçlarımız tam sigortalıdır.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Kaza durumunda polis/jandarma tutanağı zorunludur.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Hasar durumunda müşteri sorumluluğu 3.000 TL ile sınırlıdır.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- İptal ve İade -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iptalIade">
+                                <i class="fas fa-undo-alt me-2"></i>İptal ve İade Koşulları
+                            </button>
+                        </h2>
+                        <div id="iptalIade" class="accordion-collapse collapse" data-bs-parent="#kiralamaKosullariAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success me-2"></i>24 saat öncesine kadar ücretsiz iptal.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>24 saatten az sürede iptal durumunda 1 günlük kiralama bedeli tahsil edilir.</li>
+                                    <li><i class="fas fa-check text-success me-2"></i>Erken iade durumunda kalan günlerin %50'si iade edilir.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const baslangicTarihi = document.getElementById('baslangicTarihi');
+            const bitisTarihi = document.getElementById('bitisTarihi');
+            
+            // Bugünün tarihini al
+            const today = new Date().toISOString().split('T')[0];
+            
+            // Başlangıç tarihi için minimum bugün olsun
+            baslangicTarihi.min = today;
+            
+            
+            // Bitiş tarihi için minimum başlangıç tarihi olsun
+            bitisTarihi.min = today  ;
+            
+            // Başlangıç tarihi değiştiğinde bitiş tarihini güncelle
+            baslangicTarihi.addEventListener('change', function() {
+                bitisTarihi.min = this.value;
+                if (bitisTarihi.value < this.value) {
+                    bitisTarihi.value = this.value;
+                }
+                hesaplaToplamTutar();
+            });
+            
+            bitisTarihi.addEventListener('change', hesaplaToplamTutar);
+            
+            // Sayfa yüklendiğinde hesapla
+            hesaplaToplamTutar();
+        });
+
+        function sepeteEkle() {
+            if (!document.getElementById('kosullarKabul').checked) {
+                alert('Lütfen kiralama koşullarını kabul ediniz!');
+                return false;
+            }
+            return true;
+        }
+</script>
+}

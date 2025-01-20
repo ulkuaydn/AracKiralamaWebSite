@@ -1,0 +1,57 @@
+@model AracKiralama.Models.KayitViewModel
+
+@{
+    ViewData["Title"] = "Üye Ol";
+}
+
+<div class="auth-container">
+    <div class="auth-box">
+        <div class="auth-header">
+            <h2>Üye Olun</h2>
+            <p>Yeni bir hesap oluşturun</p>
+        </div>
+
+        <form asp-action="Kayit" method="post" class="auth-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Ad" class="form-control" placeholder="Ad" required />
+                <label asp-for="Ad"><i class="fas fa-user me-2"></i>Ad</label>
+                <span asp-validation-for="Ad" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Soyad" class="form-control" placeholder="Soyad" required />
+                <label asp-for="Soyad"><i class="fas fa-user me-2"></i>Soyad</label>
+                <span asp-validation-for="Soyad" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Email" class="form-control" type="email" placeholder="E-posta" required />
+                <label asp-for="Email"><i class="fas fa-envelope me-2"></i>E-posta</label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Sifre" class="form-control" type="password" placeholder="Şifre" required />
+                <label asp-for="Sifre"><i class="fas fa-lock me-2"></i>Şifre</label>
+                <span asp-validation-for="Sifre" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-auth w-100">
+                <i class="fas fa-user-plus me-2"></i>Üye Ol
+            </button>
+        </form>
+
+        <div class="auth-footer">
+            <p>Zaten hesabınız var mı?</p>
+            <a asp-action="Login" class="btn btn-auth-outline w-100">
+                <i class="fas fa-sign-in-alt me-2"></i>Giriş Yap
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

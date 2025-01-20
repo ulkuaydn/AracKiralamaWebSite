@@ -1,0 +1,191 @@
+a.navbar-brand[b-qub3t3qrbn] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  
+  a[b-qub3t3qrbn] {
+    color: #0077cc;
+  }
+  
+  .btn-primary[b-qub3t3qrbn] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+  }
+  
+  .nav-pills .nav-link.active[b-qub3t3qrbn], .nav-pills .show > .nav-link[b-qub3t3qrbn] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+  }
+  
+  .border-top[b-qub3t3qrbn] {
+    border-top: 1px solid #e5e5e5;
+  }
+  .border-bottom[b-qub3t3qrbn] {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .box-shadow[b-qub3t3qrbn] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  
+  button.accept-policy[b-qub3t3qrbn] {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  
+  .footer[b-qub3t3qrbn] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+  }
+  
+  .modal-content[b-qub3t3qrbn] {
+      border: none;
+      border-radius: 15px;
+  }
+  
+  .btn-outline-primary:hover[b-qub3t3qrbn],
+  .btn-outline-success:hover[b-qub3t3qrbn],
+  .btn-outline-warning:hover[b-qub3t3qrbn] {
+      transform: translateY(-3px);
+      transition: transform 0.3s ease;
+  }
+  
+  .badge[b-qub3t3qrbn] {
+      font-size: 0.7em;
+  }
+  
+  .highlight[b-qub3t3qrbn] {
+      animation: highlight-b-qub3t3qrbn 2s;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  @keyframes highlight-b-qub3t3qrbn {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+  }
+  
+  .footer[b-qub3t3qrbn] {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      white-space: nowrap;
+      line-height: 60px;
+  }
+  
+  .highlight-card[b-qub3t3qrbn] {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      z-index: 1;
+  }
+  
+  .card[b-qub3t3qrbn] {
+      transition: all 0.3s ease;
+  }
+  
+  .card:hover[b-qub3t3qrbn] {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Paketler modalındaki kartlar için yeni stiller */
+  .modal#paketlerModal .card[b-qub3t3qrbn] {
+      border: 2px solid #e9ecef;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+  }
+  
+  .modal#paketlerModal .card[data-paket="ekonomik"][b-qub3t3qrbn] {
+      border-color: #0d6efd;
+  }
+  
+  .modal#paketlerModal .card[data-paket="konfor"][b-qub3t3qrbn] {
+      border-color: #198754;
+  }
+  
+  .modal#paketlerModal .card[data-paket="premium"][b-qub3t3qrbn] {
+      border-color: #ffc107;
+  }
+  
+  .modal#paketlerModal .card:hover[b-qub3t3qrbn] {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  /* Hızlı rezervasyon butonları için ek stiller */
+  .btn-lg.btn-outline-primary[b-qub3t3qrbn],
+  .btn-lg.btn-outline-success[b-qub3t3qrbn],
+  .btn-lg.btn-outline-warning[b-qub3t3qrbn] {
+      min-width: 200px;
+      margin: 10px;
+      font-weight: 400;
+  }
+  
+  /* Navbar hover efekti */
+  .hover-effect[b-qub3t3qrbn] {
+      position: relative;
+      transition: color 0.3s ease;
+  }
+  
+  .hover-effect[b-qub3t3qrbn]:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #fff;
+      transition: width 0.3s ease;
+  }
+  
+  .hover-effect:hover[b-qub3t3qrbn]:after {
+      width: 100%;
+  }
+  
+  /* Buton hover efektleri */
+  .btn[b-qub3t3qrbn] {
+      transition: all 0.3s ease;
+  }
+  
+  .btn:hover[b-qub3t3qrbn] {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Navbar marka stili */
+  .navbar-brand span[b-qub3t3qrbn] {
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: 1px;
+  }
+  
+  /* Navbar buton stili */
+  .navbar .btn[b-qub3t3qrbn] {
+      padding: 0.5rem 1.5rem;
+      font-weight: 500;
+      min-width: 140px;
+  }
+  
+  .navbar .btn-outline-light:hover[b-qub3t3qrbn] {
+      background-color: rgba(255,255,255,0.1);
+      color: white;
+  }
+  
+  .navbar .btn-light[b-qub3t3qrbn] {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #212529;
+  }
+  
+  .navbar .btn-light:hover[b-qub3t3qrbn] {
+      background-color: #f8f9fa;
+      border-color: #f8f9fa;
+      color: #212529;
+  }

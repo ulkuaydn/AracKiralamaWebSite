@@ -1,0 +1,106 @@
+@model IEnumerable<AracKiralama.Models.Arac>
+
+<div class="container mt-4">
+    <center><h1>Araç Listesi</h1></center>
+    <div class="row">
+        @foreach (var arac in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-img-container">
+                        <img src="@arac.ResimUrl" class="card-img-top" alt="@arac.Marka @arac.Model">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@arac.Marka @arac.Model</h5>
+                        <div class="arac-ozellikler">
+                            <p><i class="fas fa-calendar-alt"></i> <strong>Yıl:</strong> @arac.Yil</p>
+                            <p><i class="fas fa-gas-pump"></i> <strong>Yakıt:</strong> @arac.YakitTipi</p>
+                            <p><i class="fas fa-cog"></i> <strong>Vites:</strong> @arac.Vites</p>
+                            <p><i class="fas fa-lira-sign"></i> <strong>Günlük:</strong> @arac.GunlukUcret.ToString("C0")</p>
+                        </div>
+                        <div class="text-center mt-3">
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <a href="@Url.Action("Detay", "Arac", new { id = arac.Id })" class="btn btn-primary">
+                                    <i class="fas fa-car me-2"></i>Hemen Kirala
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Login", "Hesap", new { returnUrl = Url.Action("Detay", "Arac", new { id = arac.Id }) })" 
+                                   class="btn btn-primary">
+                                    <i class="fas fa-sign-in-alt me-2"></i>Giriş Yap ve Kirala
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.arac-ozellikler {
+    font-size: 0.9rem;
+}
+
+.arac-ozellikler p {
+    margin-bottom: 0.5rem;
+}
+
+.arac-ozellikler i {
+    width: 20px;
+    color: var(--primary-color);
+}
+</style>
+
+@section Scripts {
+    <script>
+        function sepeteEkle(aracId) {
+            const baslangicTarihi = new Date();
+            const bitisTarihi = new Date();
+            bitisTarihi.setDate(bitisTarihi.getDate() + 1); // Varsayılan 1 gün
+
+            const formData = new FormData();
+            formData.append('aracId', aracId);
+            formData.append('baslangic', baslangicTarihi.toISOString());
+            formData.append('bitis', bitisTarihi.toISOString());
+
+            fetch('/Sepet/SepeteEkle', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {0
+                if (response.ok) {
+                    window.location.href = '/Sepet/Index';
+                } else {
+                    throw new Error('Bir hata oluştu');
+                }
+            })
+            .catch(error => {
+                alert('Sepete eklenirken bir hata oluştu: ' + error.message);
+            });
+        }
+    </script>
+}

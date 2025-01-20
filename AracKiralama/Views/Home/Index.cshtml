@@ -1,0 +1,157 @@
+﻿@using AracKiralama.Models;
+    
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/slider3.jpg" class="d-block w-100" alt="Özel Fırsatlar">
+            <div class="carousel-caption slide-content">
+                <h2 class="display-4 fw-bold">Özel Kampanyalar</h2>
+                <p class="lead">Uzun dönem kiralama ve hafta sonu fırsatları</p>
+                <button class="btn btn-light btn-lg" onclick="openPaketlerModal('ekonomik')">
+                    <i class="fas fa-gift me-2"></i>Fırsatları Keşfet
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/slider2.jpg" class="d-block w-100" alt="Ekonomik Araçlar">
+            <div class="carousel-caption slide-content">
+                <h2 class="display-4 fw-bold">Ekonomik Araçlar</h2>
+                <p class="lead">Uygun fiyatlı ve yakıt tasarruflu araçlar</p>
+                <a href="/Arac" class="btn btn-light btn-lg">
+                    <i class="fas fa-car me-2"></i>Fiyatları Gör
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/images/slider1.jpeg" class="d-block w-100" alt="Premium Araçlar">
+            <div class="carousel-caption slide-content">
+                <h2 class="display-4 fw-bold">Premium Araç Filosu</h2>
+                <p class="lead">Mercedes, BMW, Audi ve daha fazlası...</p>
+                <a href="/Arac" class="btn btn-light btn-lg">
+                    <i class="fas fa-crown me-2"></i>Araçları İncele
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- Özellikler Bölümü -->
+<div class="features-section py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-box text-center p-4 rounded-3 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-car fa-3x text-primary"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Geniş Araç Filosu</h3>
+                    <p class="text-muted mb-0">Ekonomik araçlardan lüks araçlara kadar geniş seçenek</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box text-center p-4 rounded-3 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-shield-alt fa-3x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Tam Sigorta</h3>
+                    <p class="text-muted mb-0">Tüm araçlarımız tam sigorta kapsamında</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box text-center p-4 rounded-3 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-headset fa-3x text-warning"></i>
+                    </div>
+                    <h3 class="h4 mb-3">7/24 Destek</h3>
+                    <p class="text-muted mb-0">Her zaman yanınızdayız</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tatil Destinasyonları Bölümü -->
+<div class="container mt-4">
+    <!-- Tatil Rotaları Bölümü -->
+   <center><h2 class="mb-4">POPÜLER TATİL ROTALARI</h2></center> 
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/images/antalya.jpg" class="card-img-top" alt="Antalya">
+                <div class="card-body">
+                    <center><h5 class="card-title">ANTALYA</h5></center>
+                    <p class="card-text">Antalya'nın muhteşem plajları ve tarihi mekanlarını keşfedin.</p>
+                   
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/images/kapadokya.jpg" class="card-img-top" alt="Kapadokya">
+                <div class="card-body">
+                   <center> <h5 class="card-title">KAPADOKYA</h5></center>
+                    <p class="card-text">Peribacaları ve sıcak hava balonlarıyla masalsı bir deneyim.</p>
+                   
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/images/istanbul.jpg" class="card-img-top" alt="İstanbul">
+                <div class="card-body">
+                   <center> <h5 class="card-title">İSTANBUL</h5></center>
+                    <p class="card-text">Tarihi yarımada ve Boğaz turu ile İstanbul gibi özel bir şehri sizde gelip bir gezin.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="/images/trabzon.jpg" class="card-img-top" alt="Kapadokya">
+        <div class="card-body">
+            <center><h5 class="card-title">TRABZON</h5></center>
+            <p class="card-text">Yeşil tepeler, çay bahçeleri ve Karadeniz'in büyüleyici atmosferi.</p>
+           
+        </div>
+    </div>
+</div>
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="/images/bursa.jpg" class="card-img-top" alt="Kapadokya">
+        <div class="card-body">
+           <center> <h5 class="card-title"> BURSA</h5></center>
+            <p class="card-text">Yeşillik ve huzur dolu bir manzara.Bursa'yı keşfe çıkın Tüm güzelliklerine sizde şahit olun.</p>
+           
+        </div>
+    </div>
+</div>
+<div class="col-md-4 mb-4">
+    <div class="card">
+        <img src="/images/ankara.jpg" class="card-img-top" alt="Kapadokya">
+        <div class="card-body">
+           <center> <h5 class="card-title">ANKARA</h5></center>
+            <p class="card-text">Modern bir yolculukta, tarihin izinde: Ankara'nın kalbinde keşfe çıkın</p>
+           
+        </div>
+    </div>
+</div>
+</div>
+</div>

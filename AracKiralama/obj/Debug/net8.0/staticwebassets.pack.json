@@ -1,0 +1,401 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AracKiralama.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AracKiralama.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\alfa.jpg",
+      "PackagePath": "staticwebassets\\images\\alfa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\ankara.jpg",
+      "PackagePath": "staticwebassets\\images\\ankara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\antalya.jpg",
+      "PackagePath": "staticwebassets\\images\\antalya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\araba_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_10.jpg",
+      "PackagePath": "staticwebassets\\images\\araba_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_3.jpg",
+      "PackagePath": "staticwebassets\\images\\araba_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_6.jpeg",
+      "PackagePath": "staticwebassets\\images\\araba_6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_7.webp",
+      "PackagePath": "staticwebassets\\images\\araba_7.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_8.jpeg",
+      "PackagePath": "staticwebassets\\images\\araba_8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\araba_9.jpeg",
+      "PackagePath": "staticwebassets\\images\\araba_9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\audi.jpg",
+      "PackagePath": "staticwebassets\\images\\audi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\bentley.jpg",
+      "PackagePath": "staticwebassets\\images\\bentley.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\bmw.jpg",
+      "PackagePath": "staticwebassets\\images\\bmw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\bursa.jpg",
+      "PackagePath": "staticwebassets\\images\\bursa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\car-logo.png",
+      "PackagePath": "staticwebassets\\images\\car-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\ferrari.jpg",
+      "PackagePath": "staticwebassets\\images\\ferrari.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\ford_jeep.jpeg",
+      "PackagePath": "staticwebassets\\images\\ford_jeep.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\istanbul.jpg",
+      "PackagePath": "staticwebassets\\images\\istanbul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\jaguar.jpg",
+      "PackagePath": "staticwebassets\\images\\jaguar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\kapadokya.jpg",
+      "PackagePath": "staticwebassets\\images\\kapadokya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\lambo.jpg",
+      "PackagePath": "staticwebassets\\images\\lambo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\lexus.jpg",
+      "PackagePath": "staticwebassets\\images\\lexus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\lotus.jpg",
+      "PackagePath": "staticwebassets\\images\\lotus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\maserati.jpg",
+      "PackagePath": "staticwebassets\\images\\maserati.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\mercedes.jpg",
+      "PackagePath": "staticwebassets\\images\\mercedes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\porsche.jpg",
+      "PackagePath": "staticwebassets\\images\\porsche.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\range-rover.jpg",
+      "PackagePath": "staticwebassets\\images\\range-rover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\rolls.jpg",
+      "PackagePath": "staticwebassets\\images\\rolls.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\slider1.jpeg",
+      "PackagePath": "staticwebassets\\images\\slider1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\slider2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\tesla.jpg",
+      "PackagePath": "staticwebassets\\images\\tesla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\trabzon.jpg",
+      "PackagePath": "staticwebassets\\images\\trabzon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\images\\volvo.jpg",
+      "PackagePath": "staticwebassets\\images\\volvo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\AracKiralama\\AracKiralama\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AracKiralama.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AracKiralama.props",
+      "PackagePath": "build\\AracKiralama.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AracKiralama.props",
+      "PackagePath": "buildMultiTargeting\\AracKiralama.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AracKiralama.props",
+      "PackagePath": "buildTransitive\\AracKiralama.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

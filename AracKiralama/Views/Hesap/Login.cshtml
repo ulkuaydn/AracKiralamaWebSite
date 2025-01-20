@@ -1,0 +1,50 @@
+@model AracKiralama.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+<div class="auth-container">
+    <div class="auth-box">
+        <div class="auth-header">
+            <h2>Hoş Geldiniz</h2>
+            <p>Hesabınıza giriş yapın</p>
+        </div>
+
+        <form asp-action="Login" method="post" class="auth-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Email" class="form-control" type="email" placeholder="E-posta" required />
+                <label asp-for="Email"><i class="fas fa-envelope me-2"></i>E-posta</label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-4">
+                <input asp-for="Sifre" class="form-control" type="password" placeholder="Şifre" required />
+                <label asp-for="Sifre"><i class="fas fa-lock me-2"></i>Şifre</label>
+                <span asp-validation-for="Sifre" class="text-danger"></span>
+            </div>
+
+            <div class="form-check mb-4">
+                <input asp-for="BeniHatirla" class="form-check-input" type="checkbox" />
+                <label asp-for="BeniHatirla" class="form-check-label">Beni Hatırla</label>
+            </div>
+
+            <button type="submit" class="btn btn-auth w-100">
+                <i class="fas fa-sign-in-alt me-2"></i>Giriş Yap
+            </button>
+        </form>
+
+        <div class="auth-footer">
+            <p>Hesabınız yok mu?</p>
+            <a asp-action="Kayit" class="btn btn-auth-outline w-100">
+                <i class="fas fa-user-plus me-2"></i>Yeni Hesap Oluştur
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

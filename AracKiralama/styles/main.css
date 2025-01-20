@@ -1,0 +1,38 @@
+:root {
+  /* Ana renkler */
+  --primary-color: #2c3e50;      /* Koyu lacivert */
+  --secondary-color: #3498db;    /* Canlı mavi */
+  --accent-color: #e74c3c;       /* Vurgu için kırmızı */
+  
+  /* Arka plan renkleri */
+  --bg-light: #f8f9fa;          /* Açık arka plan */
+  --bg-dark: #34495e;           /* Koyu arka plan */
+  
+  /* Metin renkleri */
+  --text-dark: #2c3e50;         /* Koyu metin */
+  --text-light: #ecf0f1;        /* Açık metin */
+}
+
+/* Header stil güncellemesi */
+.header {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+/* Ana butonlar için stil */
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* Kartlar için stil */
+.card {
+  background-color: var(--bg-light);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Hero section için gradient arka plan */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: var(--text-light);
+}
