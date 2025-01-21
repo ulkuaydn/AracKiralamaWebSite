@@ -1,4 +1,4 @@
-# ARAÇ KİRALAMA WEB SİTESİ
+![image](https://github.com/user-attachments/assets/0114a196-aff8-4589-b5d8-88e607d04f24)# ARAÇ KİRALAMA WEB SİTESİ
 Bu proje, ASP.NET MVC kullanılarak geliştirilmiş bir araç kiralama web sitesidir. Proje SQL server veri tabanı kullanılarak geliştirilmiştir.
 
 ## Uygulamanın Amacı
@@ -62,6 +62,8 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 165400](https://github.com/user-attachments/assets/7c6bfc1d-812e-42e0-af43-6a8230d86e66)
 * ## Araba Detay
 ![Ekran görüntüsü 2025-01-21 165425](https://github.com/user-attachments/assets/cf7c96e0-288a-421b-b942-5877e2422eee)
+* ## Kiralama Koşulları
+![Ekran görüntüsü 2025-01-21 023053](https://github.com/user-attachments/assets/52e33d83-da8a-44dc-9a97-8615b6f75f7b)
 * ## Sepet
 ![Ekran görüntüsü 2025-01-21 165454](https://github.com/user-attachments/assets/bbcc08d0-5fa6-44cf-ac85-8a29ed42a749)
 
