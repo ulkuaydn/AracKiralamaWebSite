@@ -79,7 +79,9 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 023053](https://github.com/user-attachments/assets/52e33d83-da8a-44dc-9a97-8615b6f75f7b)
 ## * Sepet
 ![Ekran görüntüsü 2025-01-21 165454](https://github.com/user-attachments/assets/bbcc08d0-5fa6-44cf-ac85-8a29ed42a749)
+## * Youtube Tanıtım Videosu
+https://youtu.be/nYmQySane88?si=6Ern32HFWvKKMP9r
 
-
-
+## * HAZIRLAYAN
+ÜLKÜ AYDIN
 
