@@ -29,8 +29,8 @@ Bu uygulama sayesinde:
 - 
 
  #  ARAYÜZ GÖRSELLERİ
+ 
 * ## Giriş Ekranı
-
 ![Ekran görüntüsü 2025-01-21 022647](https://github.com/user-attachments/assets/cb43edce-0cf6-49cf-8351-36fde0b27465)
 * ## Üye Ol Ekranı
 ![Ekran görüntüsü 2025-01-21 022716](https://github.com/user-attachments/assets/a0d247f9-4925-4b51-b47a-531ea0cc085a)
