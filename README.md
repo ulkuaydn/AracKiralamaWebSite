@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0114a196-aff8-4589-b5d8-88e607d04f24)# ARAÇ KİRALAMA WEB SİTESİ
+# ARAÇ KİRALAMA WEB SİTESİ
 Bu proje, ASP.NET MVC kullanılarak geliştirilmiş bir araç kiralama web sitesidir. Proje SQL server veri tabanı kullanılarak geliştirilmiştir.
 
 ## Uygulamanın Amacı
