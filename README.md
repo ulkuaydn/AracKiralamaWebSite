@@ -1,5 +1,7 @@
 # Araç Kiralama Web Sitesi
 Bu proje, ASP.NET MVC kullanılarak geliştirilmiş bir araç kiralama web sitesidir. Proje SQL server veri tabanı kullanılarak geliştirilmiştir.
+Bu web sitesi, kullanıcıların kolayca araç kiralamasını ve mevcut araçlar hakkında detaylı bilgiye ulaşmasını sağlayan bir platformdur.
+Kullanıcı dostu bir arayüz ile tasarlanan bu site, hem bireysel hem de kurumsal kullanıcıların ihtiyaçlarına cevap vermektedir.
 
 ## Uygulamanın Amacı
 Günümüzde bir çok insan araç kiralamak için çeşitli yerlere gidiyor ve özel sektörlerde araç kiralarken baskı altında kalıyorlar. Bu sektörde online ve güvenilir şekilde araç kiralayabiliyoruz.
@@ -7,6 +9,8 @@ Günümüzde bir çok insan araç kiralamak için çeşitli yerlere gidiyor ve �
 Bu uygulama sayesinde:
 - Güvenilir araç kiralayabiliyoruz.
 - Zamandan tasarruf edebiliriz.
+- Araç kiralama sürecini daha şeffaf ve erişilebilir hale getirerek müşteri memnuniyetini artırmak.
+- Kiralama süreci boyunca kullanıcıya rehberlik ederek daha bilinçli kararlar almalarını sağlamak.
 - Araç bilgilerine yazılı ulaşabiliyoruz.
 - Araç müsaitlik durumunu görebiliyoruz.
 - Kiraladığımız araç için fiyat bilgisi alabiliyoruz.
