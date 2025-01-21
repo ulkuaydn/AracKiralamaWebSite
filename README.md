@@ -53,6 +53,11 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 022647](https://github.com/user-attachments/assets/cb43edce-0cf6-49cf-8351-36fde0b27465)
 * ## Üye Ol Ekranı
 ![Ekran görüntüsü 2025-01-21 022716](https://github.com/user-attachments/assets/a0d247f9-4925-4b51-b47a-531ea0cc085a)
+* ## Araçlar
+![Ekran görüntüsü 2025-01-21 170842](https://github.com/user-attachments/assets/4b3906a0-1544-48ce-8213-4f5975dd604c)
+![Ekran görüntüsü 2025-01-21 170855](https://github.com/user-attachments/assets/67673d2f-56f5-4429-87a9-6ef4f041128e)
+![Ekran görüntüsü 2025-01-21 170905](https://github.com/user-attachments/assets/29a8322f-cf90-4e31-bc3c-8edb669aaee9)
+![Ekran görüntüsü 2025-01-21 170914](https://github.com/user-attachments/assets/f70b2364-9ebc-4a83-8f32-8c567118b8ed)
 * ## Boş Sepet
 ![Ekran görüntüsü 2025-01-21 165400](https://github.com/user-attachments/assets/7c6bfc1d-812e-42e0-af43-6a8230d86e66)
 * ## Araba Detay
