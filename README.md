@@ -50,7 +50,7 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 165007](https://github.com/user-attachments/assets/fa0b4e70-c657-4578-bfc7-b738dbdbfc60)
 ![Ekran görüntüsü 2025-01-21 165017](https://github.com/user-attachments/assets/528bdb55-8342-46b0-9377-7906f97f0af9)
 ![Ekran görüntüsü 2025-01-21 165026](https://github.com/user-attachments/assets/9804b3b9-b61e-40c8-b9be-8c2b74e91ff8)
-* ## Üye Ol Ekranı
+* ## Özellik Kartları
 ![Ekran görüntüsü 2025-01-21 165032](https://github.com/user-attachments/assets/f77c2bc0-d86f-4423-9bca-2f29a8d446c0)
 * ## Popüler Tatil Rotaları
 ![Ekran görüntüsü 2025-01-21 165048](https://github.com/user-attachments/assets/13d70738-4243-462d-9a54-e0e155106a42)
@@ -79,16 +79,6 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 023053](https://github.com/user-attachments/assets/52e33d83-da8a-44dc-9a97-8615b6f75f7b)
 * ## Sepet
 ![Ekran görüntüsü 2025-01-21 165454](https://github.com/user-attachments/assets/bbcc08d0-5fa6-44cf-ac85-8a29ed42a749)
-
-
-
-
-
-
-
-
-
-
 
 
 
