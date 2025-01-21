@@ -82,6 +82,6 @@ Bu uygulama sayesinde:
 ## * Youtube Tanıtım Videosu
 https://youtu.be/nYmQySane88?si=6Ern32HFWvKKMP9r
 
-## * HAZIRLAYAN
+## HAZIRLAYAN
 ÜLKÜ AYDIN
 
