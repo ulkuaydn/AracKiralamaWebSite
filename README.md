@@ -43,6 +43,8 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 165048](https://github.com/user-attachments/assets/13d70738-4243-462d-9a54-e0e155106a42)
 * ## Footer Kısmı
 ![Ekran görüntüsü 2025-01-21 165106](https://github.com/user-attachments/assets/f968456d-8f6a-4988-b9e4-80788e8e3058)
+* ## Sıkça Sorulan Sorular
+![Ekran görüntüsü 2025-01-21 170426](https://github.com/user-attachments/assets/cbe45513-0e67-47d5-b01d-b8d2fec8b338)
 * ## Hakkımızda
 ![Ekran görüntüsü 2025-01-21 165211](https://github.com/user-attachments/assets/970b9683-adf7-45bb-bf83-64a043f6ac1c)
 * ## Rezervasyon
@@ -51,8 +53,15 @@ Bu uygulama sayesinde:
 ![Ekran görüntüsü 2025-01-21 022647](https://github.com/user-attachments/assets/cb43edce-0cf6-49cf-8351-36fde0b27465)
 * ## Üye Ol Ekranı
 ![Ekran görüntüsü 2025-01-21 022716](https://github.com/user-attachments/assets/a0d247f9-4925-4b51-b47a-531ea0cc085a)
-* ## Sepet
+* ## Boş Sepet
 ![Ekran görüntüsü 2025-01-21 165400](https://github.com/user-attachments/assets/7c6bfc1d-812e-42e0-af43-6a8230d86e66)
+* ## Araba Detay
+![Ekran görüntüsü 2025-01-21 165425](https://github.com/user-attachments/assets/cf7c96e0-288a-421b-b942-5877e2422eee)
+* ## Sepet
+![Ekran görüntüsü 2025-01-21 165454](https://github.com/user-attachments/assets/bbcc08d0-5fa6-44cf-ac85-8a29ed42a749)
+
+
+
 
 
 
