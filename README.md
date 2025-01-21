@@ -23,16 +23,25 @@ Bu uygulama sayesinde:
 - SQL SERVER (Veri Tabanı)
   
 ## Öne Çıkan Özellikler
-- Giriş Sayfası
-- Üye Ol Sayfası
-- Web Site arayüz
-- 
+- Logo
+- WEb Site Arayüz
+- Üye Ol Ekranı
+- Popüler Tatil Rotalaarı
+- Footer Kısmı
+- Sıkça Sorulan Sorular
+- Hakkımızda
+- Rezervasyon
+- Giriş Ekranı
+- Üye Ol Ekranı
+- Araçlar
+- Sepet
+- Araba Detayları
+- Kiralama Koşulları
 
  #  ARAYÜZ GÖRSELLERİ
 
 * ## LOGO
  ![Ekran görüntüsü 2025-01-21 165148](https://github.com/user-attachments/assets/b94a5193-25f7-4c21-a21a-308b75f4a2b3)
-
 * ## Web Site Arayüzü
 ![Ekran görüntüsü 2025-01-21 165007](https://github.com/user-attachments/assets/fa0b4e70-c657-4578-bfc7-b738dbdbfc60)
 ![Ekran görüntüsü 2025-01-21 165017](https://github.com/user-attachments/assets/528bdb55-8342-46b0-9377-7906f97f0af9)
