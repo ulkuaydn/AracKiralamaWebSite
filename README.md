@@ -4,6 +4,7 @@ Bu proje, ASP.NET MVC kullanılarak geliştirilmiş bir araç kiralama web sites
 ## Özellikler
 - Araç kiralama işlemlerinin yönetimi.
 - Kullanıcı dostu arayüz.
+- Kolay araç kiralama.
 - Geçmiş tarihlerin seçilememesi ve rezervasyon süresi kontrolü.
 - Veritabanına kayıt, onaylama ve düzenleme işlemleri.
 
