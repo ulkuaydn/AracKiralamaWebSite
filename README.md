@@ -29,17 +29,38 @@ Bu uygulama sayesinde:
 - 
 
  #  ARAYÜZ GÖRSELLERİ
- 
+
+* ## LOGO
+ ![Ekran görüntüsü 2025-01-21 165148](https://github.com/user-attachments/assets/b94a5193-25f7-4c21-a21a-308b75f4a2b3)
+
+* ## Web Site Arayüzü
+![Ekran görüntüsü 2025-01-21 165007](https://github.com/user-attachments/assets/fa0b4e70-c657-4578-bfc7-b738dbdbfc60)
+![Ekran görüntüsü 2025-01-21 165017](https://github.com/user-attachments/assets/528bdb55-8342-46b0-9377-7906f97f0af9)
+![Ekran görüntüsü 2025-01-21 165026](https://github.com/user-attachments/assets/9804b3b9-b61e-40c8-b9be-8c2b74e91ff8)
+* ## Üye Ol Ekranı
+![Ekran görüntüsü 2025-01-21 165032](https://github.com/user-attachments/assets/f77c2bc0-d86f-4423-9bca-2f29a8d446c0)
+* ## Popüler Tatil Rotaları
+![Ekran görüntüsü 2025-01-21 165048](https://github.com/user-attachments/assets/13d70738-4243-462d-9a54-e0e155106a42)
+* ## Footer Kısmı
+![Ekran görüntüsü 2025-01-21 165106](https://github.com/user-attachments/assets/f968456d-8f6a-4988-b9e4-80788e8e3058)
+* ## Hakkımızda
+![Ekran görüntüsü 2025-01-21 165211](https://github.com/user-attachments/assets/970b9683-adf7-45bb-bf83-64a043f6ac1c)
+* ## Rezervasyon
+![Ekran görüntüsü 2025-01-21 165220](https://github.com/user-attachments/assets/5c43a9ef-4a44-4358-9302-559467c5613f)
 * ## Giriş Ekranı
 ![Ekran görüntüsü 2025-01-21 022647](https://github.com/user-attachments/assets/cb43edce-0cf6-49cf-8351-36fde0b27465)
 * ## Üye Ol Ekranı
 ![Ekran görüntüsü 2025-01-21 022716](https://github.com/user-attachments/assets/a0d247f9-4925-4b51-b47a-531ea0cc085a)
-* ## Üye Ol Ekranı
-![Ekran görüntüsü 2025-01-21 022101](https://github.com/user-attachments/assets/74e4ae07-9223-4d2c-abde-429a4c45bae8)
-![Ekran görüntüsü 2025-01-21 022143](https://github.com/user-attachments/assets/5c8ab1d5-2baf-4341-b225-9bce95eb847d)
-![Ekran görüntüsü 2025-01-21 022205](https://github.com/user-attachments/assets/8bf30bcc-6228-4f17-a118-050aa55346c6)
-* ## Üye Ol Ekranı
-![Ekran görüntüsü 2025-01-21 022250](https://github.com/user-attachments/assets/425358f8-cc2c-43b6-90aa-cf8a75930868)
-* ## Üye Ol Ekranı
-![Ekran görüntüsü 2025-01-21 022320](https://github.com/user-attachments/assets/e2159406-a86f-43c6-b33c-d03087ac689d)![Ekran görüntüsü 2025-01-21 022342](https://github.com/user-attachments/assets/351dffe0-8559-43b5-b0c3-0d425e256f49)
+* ## Sepet
+![Ekran görüntüsü 2025-01-21 165400](https://github.com/user-attachments/assets/7c6bfc1d-812e-42e0-af43-6a8230d86e66)
+
+
+
+
+
+
+
+
+
+
 
